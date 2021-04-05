@@ -1,0 +1,17 @@
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
