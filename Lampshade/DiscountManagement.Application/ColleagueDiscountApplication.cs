@@ -39,7 +39,7 @@ namespace DiscountManagement.Application
                 x.ProductId == command.ProductId && x.DiscountRate == command.DiscountRate && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
-            colleagueDiscount.Edit(colleagueDiscount.ProductId, colleagueDiscount.DiscountRate);
+            colleagueDiscount.Edit(command.ProductId, command.DiscountRate);
 
             _colleagueDiscountRepository.SaveChanges();
             return operation.Succeeded();
