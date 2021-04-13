@@ -1,11 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
-using Microsoft.EntityFrameworkCore;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace DiscountManagement.Infrastructure.EFCore.Repository
@@ -33,7 +31,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
 
         public List<ColleagueDiscountViewModel> Search(ColleagueDiscountSearchModel searchModel)
         {
-            var products = _shopContext.Products.Select(x=>new {x.Id, x.Name }).ToList();
+            var products = _shopContext.Products.Select(x => new {x.Id, x.Name}).ToList();
             var query = _context.ColleagueDiscounts.Select(x => new ColleagueDiscountViewModel
             {
                 Id = x.Id,
@@ -47,8 +45,8 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
 
             var discounts = query.OrderByDescending(x => x.Id).ToList();
-            discounts.ForEach(discount => 
-                discount.Product = products.FirstOrDefault(x=>x.Id == discount.ProductId)?.Name);
+            discounts.ForEach(discount =>
+                discount.Product = products.FirstOrDefault(x => x.Id == discount.ProductId)?.Name);
 
             return discounts;
         }

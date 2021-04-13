@@ -194,3 +194,13 @@ D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
