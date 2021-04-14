@@ -472,6 +472,9 @@
             "projectReferences": {
               "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\Shopmanagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\Shopmanagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
