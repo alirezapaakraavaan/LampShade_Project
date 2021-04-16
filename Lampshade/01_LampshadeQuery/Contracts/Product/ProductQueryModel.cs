@@ -12,7 +12,9 @@
         public int DiscountRate { get; set; }
         public string Category { get; set; }
         public string Slug { get; set; }
+        public string CategorySlug { get; set; }
         public bool HasDiscount { get; set; }
+        public string ShortDescription { get; set; }
         public string DiscountExpireDate { get; set; }
     }
 }
