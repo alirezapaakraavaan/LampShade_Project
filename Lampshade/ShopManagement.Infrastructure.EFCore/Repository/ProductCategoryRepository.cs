@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -35,11 +36,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public string GetSlugById(long id)
+        {
+            return _context.ProductCategories.Select(x => new {x.Slug, x.Id}).FirstOrDefault(x => x.Id == id).Slug;
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
