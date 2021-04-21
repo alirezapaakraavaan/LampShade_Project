@@ -94,7 +94,7 @@ namespace _01_LampshadeQuery.Query
 
             var discounts = _discountContext.CustomerDiscounts.Where(x =>
                     x.StartDate <= DateTime.Now && x.EndDate > DateTime.Now)
-                .Select(x => new {x.DiscountRate, x.ProductId, x.EndDate}).ToList();
+                .Select(x => new {x.DiscountRate, x.ProductId}).ToList();
 
             var categories = _context.ProductCategories
                 .Include(x => x.Products)
@@ -121,7 +121,6 @@ namespace _01_LampshadeQuery.Query
                         {
                             int discountRate = product.DiscountRate;
                             product.DiscountRate = discountRate;
-                            product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
                             product.HasDiscount = discountRate > 0;
                             var discountAmount = Math.Round((price * discountRate) / 100);
                             product.PriceWithDiscount = (price - discountAmount).ToMoney();
