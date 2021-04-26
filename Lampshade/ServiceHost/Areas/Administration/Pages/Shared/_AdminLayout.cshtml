@@ -229,9 +229,9 @@
 
     <script>
         $('.persianDateInput').persianDatepicker({
-            observer: true,
             format: 'YYYY/MM/DD',
-            autoClose: true
+            autoClose: true,
+            initialValueType: "persian"
         });
     </script>
 
@@ -247,6 +247,16 @@
     <!-- Todo -->
 
     <script src="~/AdminTheme/assets/js/jquery.todo.js"></script>
+
+    <script src="https://cdn.tiny.cloud/1/2a8dnojuqks8ybm7aefupsbf0ar6ronge88v4c54cewc6tlk/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: '#BodyContent',
+            plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+            toolbar_mode: 'floating',
+        });
+    </script>
 
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

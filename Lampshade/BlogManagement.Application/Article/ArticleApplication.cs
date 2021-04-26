@@ -54,8 +54,7 @@ namespace BlogManagement.Application.Article
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
-            var path = $"{categorySlug}/{slug}";
+            var path = $"{article.ArticleCategory.Slug}/{slug}";
             var pictureName = _fileUploader.Upload(command.Picture, path);
             var publishDate = command.PublishDate.ToGeorgianDateTime();
 
