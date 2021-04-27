@@ -235,3 +235,6 @@ D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Create.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Edit.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Index.cshtml.g.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs
