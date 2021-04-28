@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
-    ViewData["Title"] = "صفحه ی محصولات";
+    ViewData["Title"] = Model.Product.Name;
+    ViewData["Keywords"] = Model.Product.Keywords;
+    ViewData["metaDescription"] = Model.Product.MetaDescription;
 }
 
 
@@ -103,7 +105,7 @@
                                         <p class="single-info">
                                             <a asp-page="/ProductCategory" asp-route-id="@Model.Product.CategorySlug">@Model.Product.Category</a>
                                         </p>
-                                        <h4 class="product-title">@Model.Product.Name</h4>
+                                        <h2 class="product-title">@Model.Product.Name</h2>
                                         <div class="product-rating">
                                             <span class="rating">
                                                 <i class="ion-android-star active"></i>
@@ -231,69 +233,19 @@
                                             <div class="tab-pane fade" id="review" role="tabpanel"
                                                  aria-labelledby="review-tab">
                                                 <div class="product-rating-wrap">
-                                                    @*<div class="rating-list">
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <span>(5)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(3)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(1)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                        <div class="sin-list float-right">
-                                                            <i class="fa fa-star"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <i class="fa fa-star-o"></i>
-                                                            <span>(0)</span>
-                                                        </div>
-                                                    </div>*@
+                                                    
                                                     @foreach (var comment in Model.Product.Comments)
                                                     {
                                                         <div class="ratings-wrapper">
                                                             <div class="sin-ratings">
                                                                 <div class="rating-author">
                                                                 <h3>@comment.Name</h3>
-                                                                @*<div class="rating-star">
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <i class="fa fa-star"></i>
-                                                                    <span>(5)</span>
-                                                                </div>*@
                                                             </div>
                                                                 <p>@comment.Message</p>
                                                             </div>
 
                                                         </div>
                                                     }
-                                                    
                                                     <div class="rating-form-wrapper fix">
                                                         <h3>نظر خود را به ما بگویید</h3>
                                                         <form method="post">
@@ -311,7 +263,7 @@
                                                                     <textarea name="message" id="message"
                                                                               placeholder="نظر خود را بنویسید"></textarea>
                                                                 </div>
-                                                                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                                                <input type="hidden" name="ownerRecordId" value="@Model.Product.Id" />
                                                                 <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
                                                                 <div class="col-12">
                                                                     <input value="ارسال" type="submit">

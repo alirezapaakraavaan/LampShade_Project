@@ -26,7 +26,7 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 CategoryId = x.CategoryId,
                 CanonicalAddress = x.CanonicalAddress,
                 Description = x.Description,
-                KeyWords = x.KeyWords,
+                KeyWords = x.Keywords,
                 MetaDescription = x.MetaDescription,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,

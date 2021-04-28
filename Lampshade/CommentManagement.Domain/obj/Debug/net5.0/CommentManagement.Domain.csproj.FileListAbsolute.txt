@@ -1,0 +1,17 @@
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.deps.json
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\ref\CommentManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Domain.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csprojAssemblyReference.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.AssemblyInfo.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.csproj.CopyComplete
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\ref\CommentManagement.Domain.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Domain\obj\Debug\net5.0\CommentManagement.Domain.pdb

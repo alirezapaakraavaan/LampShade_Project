@@ -1,0 +1,15 @@
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.deps.json
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csprojAssemblyReference.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.pdb

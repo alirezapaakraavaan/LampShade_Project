@@ -14,7 +14,7 @@ namespace BlogManagement.Domain.ArticleAgg
         public string PictureTitle { get; private set; }
         public string Slug { get; private set; }
         public string MetaDescription { get; private set; }
-        public string KeyWords { get; private set; }
+        public string Keywords { get; private set; }
         public string CanonicalAddress { get; private set; }
         public DateTime PublishDate { get; private set; }
         public long CategoryId { get; private set; }
@@ -25,7 +25,7 @@ namespace BlogManagement.Domain.ArticleAgg
         }
 
         public Article(string title, string shortDescription, string description, string picture, string pictureAlt,
-            string pictureTitle, string slug, string metaDescription, string keyWords, string canonicalAddress,
+            string pictureTitle, string slug, string metaDescription, string keywords, string canonicalAddress,
             DateTime publishDate, long categoryId)
         {
             Title = title;
@@ -36,7 +36,7 @@ namespace BlogManagement.Domain.ArticleAgg
             PictureTitle = pictureTitle;
             Slug = slug;
             MetaDescription = metaDescription;
-            KeyWords = keyWords;
+            Keywords = keywords;
             CanonicalAddress = canonicalAddress;
             PublishDate = publishDate;
             CategoryId = categoryId;
@@ -55,7 +55,7 @@ namespace BlogManagement.Domain.ArticleAgg
             PictureTitle = pictureTitle;
             Slug = slug;
             MetaDescription = metaDescription;
-            KeyWords = keyWords;
+            Keywords = keyWords;
             CanonicalAddress = canonicalAddress;
             PublishDate = publishDate;
             CategoryId = categoryId;
