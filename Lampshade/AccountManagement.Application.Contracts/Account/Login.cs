@@ -1,4 +1,6 @@
-﻿namespace AccountManagement.Application.Contracts.Account
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AccountManagement.Application.Contracts.Account
 {
     public class Login
     {

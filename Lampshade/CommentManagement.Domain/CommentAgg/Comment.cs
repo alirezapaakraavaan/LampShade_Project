@@ -31,11 +31,13 @@ namespace CommentManagement.Domain.CommentAgg
         public void Confirm()
         {
             IsConfirmed = true;
+            IsCanceled = false;
         }
 
         public void Cancel()
         {
             IsCanceled = true;
+            IsConfirmed = false;
         }
     }
 }
