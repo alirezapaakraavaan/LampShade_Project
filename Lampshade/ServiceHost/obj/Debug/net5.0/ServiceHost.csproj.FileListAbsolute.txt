@@ -266,5 +266,4 @@ D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Edit.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Index.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Account.cshtml.g.cs
-D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\ChangePassword.cshtml.g.cs
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs

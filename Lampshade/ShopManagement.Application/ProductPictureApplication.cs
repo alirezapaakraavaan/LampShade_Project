@@ -24,9 +24,6 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
 
-            /*if (_productPictureRepository.Exists(x => x.Picture == command.Picture && x.ProductId == command.ProductId))
-            operation.Failed(ApplicationMessages.DuplicatedRecord);*/
-
             var product = _productRepository.GetProductWithCategory(command.ProductId);
             var path = $"{product.Category.Slug}//{product.Slug}";
             var picturePath = _fileUploader.Upload(command.Picture, path);
