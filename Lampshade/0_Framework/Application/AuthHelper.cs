@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
+using System.Text.Json.Serialization;
 using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace _0_Framework.Application
 {
@@ -20,12 +22,14 @@ namespace _0_Framework.Application
 
         public void Signin(AuthViewModel account)
         {
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.Fullname),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
-                new Claim("Username", account.Username)
+                new Claim("Username", account.Username),
+                new Claim("permissions", permissions)
             };
 
             var claimsIdentity = new ClaimsIdentity(
@@ -42,8 +46,7 @@ namespace _0_Framework.Application
 
         public bool IsAuthenticated()
         {
-            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-            return claims.Count > 0;
+            return _contextAccessor.HttpContext.User.Identity.IsAuthenticated;
         }
 
         public void SignOut()
@@ -72,6 +75,17 @@ namespace _0_Framework.Application
 
             result.Role = Roles.GetRoleBy(result.RoleId);
             return result;
+        }
+
+        public List<int> GetPermissions()
+        {
+            if (!IsAuthenticated())
+                return new List<int>();
+
+            var permissions = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "permissions")
+                ?.Value;
+
+            return JsonConvert.DeserializeObject<List<int>>(permissions);
         }
     }
 }

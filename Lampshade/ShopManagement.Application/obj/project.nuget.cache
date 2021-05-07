@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HhptZBcvN+aaSsjYBZqevKbROSUPEbMe6OZ6PQqRdjIC3VI7cGlNpsOMPi7BHLI933UdG5ge+btNnRnzyU1dpQ==",
+  "dgSpecHash": "a7xl07ch3vRcRGP5uGG4qT99fHz82QzXDH3sUp83LzvPWmaeZ39s3E8ARZyuPAGl8Uja6cCtxN7qmuAZQmU+IA==",
   "success": true,
   "projectFilePath": "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

@@ -14,8 +14,4 @@
     <ProjectReference Include="..\InventoryManagement.Infrastructure.EFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Permissions\" />
-  </ItemGroup>
-
 </Project>

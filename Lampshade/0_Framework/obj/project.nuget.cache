@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v2ebwlZPaXV/7/WKej/BS4MO1gxjYf5SXMrgkdGVQ1DO4WOWAxTK+g3XviwG/yiRjVHExKEo2pgR8Qje6qcjPg==",
+  "dgSpecHash": "qf0H7BvRiyrbiONMI1pXnSasRhjaPYi4BQJr/6KYBZdK+cAQGJfDsEBmI3w9aMxOWed9iBaVpmwCgWzG3QCDow==",
   "success": true,
   "projectFilePath": "D:\\PROGRAMING\\C#\\Core\\Lamp Shade\\Lampshade\\0_Framework\\0_Framework.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Alireza\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Alireza\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",

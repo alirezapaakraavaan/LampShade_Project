@@ -2343,7 +2343,8 @@
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "5.0.4"
+          "Microsoft.EntityFrameworkCore": "5.0.4",
+          "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
           "bin/placeholder/0_Framework.dll": {}
