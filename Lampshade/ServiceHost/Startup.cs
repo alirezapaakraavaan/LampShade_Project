@@ -48,8 +48,8 @@ namespace ServiceHost
 
             services.Configure<CookiePolicyOptions>(options =>
             {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
+                options.CheckConsentNeeded = context => false;
+                options.MinimumSameSitePolicy = SameSiteMode.Lax;
             });
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -110,9 +110,9 @@ namespace ServiceHost
 
             app.UseStaticFiles();
 
-            app.UseRouting();
-
             app.UseCookiePolicy();
+
+            app.UseRouting();
 
             app.UseAuthorization();
 

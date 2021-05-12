@@ -161,15 +161,13 @@
                                         <div class="product-actions">
                                             <div class="quantity-selection">
                                                 <label>تعداد</label>
-                                                <input type="number" value="1" min="1">
+                                                <input type="number" value="1" min="1" id="productCount">
                                             </div>
-
                                             <div class="product-buttons">
-                                                <a class="cart-btn" href="#">
+                                                <a class="cart-btn" onclick="addToCart('@Model.Product.Id', '@Model.Product.Name', '@Model.Product.DoublePrice', '@Model.Product.Picture')">
                                                     <i class="ion-bag"></i> افزودن به سبد خرید
                                                 </a>
                                             </div>
-
                                         </div>
 
                                         <div class="social-share-buttons mt-20">
@@ -233,14 +231,14 @@
                                             <div class="tab-pane fade" id="review" role="tabpanel"
                                                  aria-labelledby="review-tab">
                                                 <div class="product-rating-wrap">
-                                                    
+
                                                     @foreach (var comment in Model.Product.Comments)
                                                     {
                                                         <div class="ratings-wrapper">
                                                             <div class="sin-ratings">
                                                                 <div class="rating-author">
-                                                                <h3>@comment.Name</h3>
-                                                            </div>
+                                                                    <h3>@comment.Name</h3>
+                                                                </div>
                                                                 <p>@comment.Message</p>
                                                             </div>
 

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿#nullable enable
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
@@ -17,8 +18,7 @@ namespace _0_Framework.Application
 
         public override bool IsValid(object? value)
         {
-            var file = value as IFormFile;
-            if (file == null) return true;
+            if (!(value is IFormFile file)) return true;
             var fileExtension = Path.GetExtension(file.FileName);
             return _validExtensions.Contains(fileExtension);
         }

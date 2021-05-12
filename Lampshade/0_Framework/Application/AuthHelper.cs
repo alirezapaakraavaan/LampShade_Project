@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
-using System.Text.Json.Serialization;
 using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -56,9 +55,9 @@ namespace _0_Framework.Application
 
         public string CurrentAccountRole()
         {
-            if (IsAuthenticated())
-                return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value;
-            return null;
+            return IsAuthenticated()
+                ? _contextAccessor.HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value
+                : null;
         }
 
         public AuthViewModel CurrentAccountInfo()
