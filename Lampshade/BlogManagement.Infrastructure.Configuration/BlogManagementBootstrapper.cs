@@ -25,7 +25,6 @@ namespace BlogManagement.Infrastructure.Configuration
             services.AddTransient<IArticleRepository, ArticleRepository>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
-
             services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             services.AddDbContext<BlogContext>(x => x.UseSqlServer(connectionString));

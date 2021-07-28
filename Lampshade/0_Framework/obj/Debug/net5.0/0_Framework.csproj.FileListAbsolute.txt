@@ -10,3 +10,15 @@ D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\0_Framework\obj\Debug\net5.0\0_Framew
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.dll
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 D:\PROGRAMING\C#\Core\Lamp Shade\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csprojAssemblyReference.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+D:\PROGRAMING\C#\Core\Lamp Shade\.git\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.pdb

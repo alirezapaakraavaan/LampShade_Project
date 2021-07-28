@@ -15,7 +15,7 @@
                         <h2 class="breadcrumb-content__title">سبد خرید شما</h2>
                         <ul class="breadcrumb-content__page-map">
                             <li>
-                                <a asp-page="/Index">صفحه ی اصلی</a>
+                                <a asp-page="./Index">صفحه ی اصلی</a>
                             </li>
                             <li class="active">سبد خرید</li>
                         </ul>
@@ -32,10 +32,16 @@
             <div class="col-lg-12">
                 <div class="page-wrapper">
 
-                    @foreach (var item in Model.CartItems.Where(x => !x.IsInStock))
-                    {
-                        <div class="alert alert-warning"><i class="fa fa-warning"></i>کالای <strong>@item.Name</strong> در انبار به تعداد درخواستی موجود نیست.</div>
-                    }
+                    <div id="productStockWarnings">
+                        @foreach (var item in Model.CartItems.Where(x => !x.IsInStock))
+                        {
+                            <div class="alert alert-warning" id="@item.Id">
+                                <i class="fa fa-warning"></i>کالای
+                                <strong>@item.Name</strong>
+                                در انبار به تعداد درخواستی موجود نیست.
+                            </div>
+                        }
+                    </div>
 
                     <div class="page-content-wrapper">
                         <div class="cart-table table-responsive">

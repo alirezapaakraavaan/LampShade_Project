@@ -84,22 +84,22 @@ namespace _01_LampshadeQuery.Query
             }
 
             product.Comments = _commentContext.Comments
-                .Where(x => x.Type == CommentType.Product)
-                .Where(x => x.OwnerRecordId == product.Id).ToList()
                 .Where(x => !x.IsCanceled)
                 .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => x.OwnerRecordId == product.Id)
                 .Select(x => new CommentQueryModel
                 {
-                    Name = x.Name,
-                    Message = x.Message,
                     Id = x.Id,
+                    Message = x.Message,
+                    Name = x.Name,
                     CreationDate = x.CreationDate.ToFarsi()
                 }).OrderByDescending(x => x.Id).ToList();
 
             return product;
         }
 
-        private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
+        private static List<ProductPictureQueryModel> MapProductPictures(IEnumerable<ProductPicture> pictures)
         {
             return pictures.Select(x => new ProductPictureQueryModel
             {

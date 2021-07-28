@@ -9,7 +9,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
     public class EditModel : PageModel
     {
         public SelectList ArticleCategories;
-        public EditArticle command;
+        public EditArticle Command;
 
         private readonly IArticleApplication _articleApplication;
         private readonly IArticleCategoryApplication _articleCategoryApplication;
@@ -23,7 +23,7 @@ namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 
         public void OnGet(long id)
         {
-            command = _articleApplication.GetDetails(id);
+            Command = _articleApplication.GetDetails(id);
             ArticleCategories = new SelectList(_articleCategoryApplication.GetArticleCategories(), "Id",
                 "Name");
         }

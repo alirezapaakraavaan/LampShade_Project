@@ -91,6 +91,11 @@ namespace AccountManagement.Application
             return _accountRepository.GetDetails(id);
         }
 
+        public List<AccountViewModel> GetAccounts()
+        {
+            return _accountRepository.GetAccounts();
+        }
+
         public OperationResult Login(Login command)
         {
             var operation = new OperationResult();

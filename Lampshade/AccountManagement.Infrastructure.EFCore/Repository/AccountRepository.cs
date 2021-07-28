@@ -4,7 +4,6 @@ using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
-using AccountManagement.Domain.RoleAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace AccountManagement.Infrastructure.EFCore.Repository
@@ -33,6 +32,15 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 RoleId = x.RoleId,
                 Username = x.Username
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<AccountViewModel> GetAccounts()
+        {
+            return _context.Accounts.Select(x => new AccountViewModel
+            {
+                Id = x.Id,
+                Fullname = x.Fullname
+            }).ToList();
         }
 
         public List<AccountViewModel> Search(AccountSearchModel searchModel)

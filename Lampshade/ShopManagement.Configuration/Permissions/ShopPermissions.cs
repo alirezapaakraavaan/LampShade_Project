@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Internal;
-
-namespace ShopManagement.Configuration.Permissions
+﻿namespace ShopManagement.Configuration.Permissions
 {
     public static class ShopPermissions
     {
