@@ -38,11 +38,14 @@ namespace ServiceHost.Pages
             return RedirectToPage("/Index");
         }
 
-        public IActionResult OnPostRegister(RegisterAccount command)
+        public IActionResult OnPostRegister(RegisterAccount command, Login loginCommand)
         {
             var result = _accountApplication.Register(command);
             if (result.IsSucceeded)
-                return RedirectToPage("/Account");
+            {
+                _accountApplication.Login(loginCommand);
+                return RedirectToPage("/Index");
+            }
 
             RegisterMessage = result.Message;
             return RedirectToPage("/Account");

@@ -9,17 +9,19 @@ namespace AccountManagement.Domain.AccountAgg
         public string Fullname { get; private set; }
         public string Username { get; private set; }
         public string Password { get; private set; }
+        public string RePassword { get; private set; }
         public string Mobile { get; private set; }
         public long RoleId { get; private set; }
         public string ProfilePhoto { get; private set; }
         public Role Role { get; private set; }
 
-        public Account(string fullname, string username, string password, string mobile, long roleId,
+        public Account(string fullname, string username, string password, string rePassword, string mobile, long roleId,
             string profilePhoto)
         {
             Fullname = fullname;
             Username = username;
             Password = password;
+            RePassword = rePassword;
             Mobile = mobile;
             RoleId = roleId;
 
